@@ -1,0 +1,26 @@
+[
+  {
+    "lat": 53.90074782466107,
+    "lng": 27.56203651428223,
+    "info": {
+      "title": "Title 1",
+      "description": "SOME PLACE 1"
+    }
+  },
+  {
+    "lat": 53.89918011831045,
+    "lng": 27.567443847656254,
+    "info": {
+      "title": "Title 2",
+      "description": "SOME PLACE 2"
+    }
+  },
+  {
+    "lat": 53.894881266863976,
+    "lng": 27.5603199005127,
+    "info": {
+      "title": "Title 3",
+      "description": "SOME PLACE 3"
+    }
+  }
+]
