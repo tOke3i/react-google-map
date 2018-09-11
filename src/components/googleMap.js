@@ -44,7 +44,7 @@ class Map extends Component {
 		return(
 			<div>
 				{
-					!!this.state.removed.length && <button onClick={() => this.setState({ removed: []})}>Show all</button>
+					!!this.state.removed.length && <button className="show-all" onClick={() => this.setState({ removed: []})}>Show all</button>
 				}
 				<Infoblock info={this.state.current} removerCurrent={this.state.currentIndex !== undefined && this.removeCurrent}/>
 				<GoogleMapExample
@@ -59,10 +59,5 @@ class Map extends Component {
 	}
 }
 
-// class MapWrapper extends Component{
-// 	render(){
-//
-// 	}
-// }
 
 export default Map;

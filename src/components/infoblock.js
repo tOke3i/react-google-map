@@ -2,7 +2,6 @@ import React from "react";
 
 const Infoblock = props =>(
 	<div className="info-block">
-		{console.log(props)}
 		<ul>
 			<li className="info-block__title">{props.info.title}</li>
 			<li className="info-block__coardinates">{props.info.description}</li>

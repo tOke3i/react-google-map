@@ -32,10 +32,13 @@ body {
 .info-block__title{
   font-weight: bold;
 }
-.info-block__remove-btn{
+.info-block__remove-btn, .show-all{
   background: brown;
   color: #fff;
   border:none;
   border-radius:5px;
   padding:10px;
+}
+.show-all{
+  margin-top:20px;
 }
